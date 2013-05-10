@@ -49,7 +49,7 @@ class HumanTttPlayer extends Actor with LoggingFSM[StateName, StateData] {
   when(Ready) {
     case Event(TttTaskEnv(squares), ReadyData) => {
       println(renderBoard(squares))
-      println("Make a move:")
+      println("Make a move(number for an empty square from 0 to 8 followed by <enter>):")
       context.sender ! TttTaskAct(readLine.toInt)
       stay using ReadyData
     }
