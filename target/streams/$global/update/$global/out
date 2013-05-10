@@ -1,0 +1,361 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/aaron/src/scala_talk/}default-74dc7f...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: open-neuro-evolution#open-neuro-evolution_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.1[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.2-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.2-M3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2-M3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2-M3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.2-M3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.0.0 in Typesafe Repository[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-testkit_2.10;2.2-M3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-testkit_2.10;2.2-M3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.10;2.2-M3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-testkit_2.10;2.2-M3[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-testkit_2.10;2.2-M3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;1.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;1.9.1 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalatest#scalatest_2.10;1.9.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;1.9.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-actors;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-actors;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-actors;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-actors;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.0 in public[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.2-M3->com.typesafe#config;1.0.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->com.typesafe.akka#akka-actor_2.10;2.2-M3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-testkit_2.10;2.2-M3->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->com.typesafe.akka#akka-testkit_2.10;2.2-M3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-actors;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-actors;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;1.9.1->org.scala-lang#scala-reflect;2.10.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies open-neuro-evolution#open-neuro-evolution_2.10;1.0->org.scalatest#scalatest_2.10;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.0 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.10.1 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for open-neuro-evolution#open-neuro-evolution_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/aaron/src/scala_talk/target/resolution-cache/open-neuro-evolution/open-neuro-evolution_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.2-M3!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.10;2.2-M3!akka-testkit_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.0.0!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.10;1.9.1!scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 233ms :: artifacts dl 15ms[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 compile produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 runtime produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 test produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 provided produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 optional produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 compile-internal produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 runtime-internal produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 test-internal produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 plugin produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 sources produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 docs produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for open-neuro-evolution#open-neuro-evolution_2.10;1.0 pom produced in /home/aaron/src/scala_talk/target/resolution-cache/reports/open-neuro-evolution-open-neuro-evolution_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (233ms resolve - 15ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

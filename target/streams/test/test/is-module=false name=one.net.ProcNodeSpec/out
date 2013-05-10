@@ -1,0 +1,64 @@
+[0m[[0minfo[0m] [0m[32mProcNodeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcUnit begins in the StartSate with StartData [0m[0m
+[0m[[0minfo[0m] [0m[32m  Given A ProcUnit is created with new ProcUnit(someActivationFunction: Seq[Double] -> Double) [0m[0m
+[0m[[0minfo[0m] [0m[32m  When its state is queried [0m[0m
+[0m[[0minfo[0m] [0m[32m  Then its stateName is found to be StartState [0m[0m
+[0m[[0minfo[0m] [0m[32m  And its stateData is found to be StartData [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcUnit in the StartState transitions to the HasOutputsState when it receives an AddOutput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Given A ProcUnit in the StartState [0m[0m
+[0m[[0minfo[0m] [0m[32m  When it receives an AddOutput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Then it transitions to the HasOutputsState [0m[0m
+[0m[[0minfo[0m] [0m[32m  And it has data HasOutputsData(Set(output) [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the HasOutputsState transitions to Ready when it receives an AddInput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the HasOutputsState receives AddInput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the HasOuputsState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives AddInput(someInput) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the StartState transitions to the HasInputsState when it receives an AddInput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the StartState receives an AddInput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the StartState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When a AddInput(newInput) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to the HasInputsState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has data of HasInputsData(Set(newInput)) [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the HasInputsState transitions to the ReadyState when it receives an AddOutput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the HasInputsState receives an AddOutput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the HasInputsState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When an AddOutput(newOutput) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And its stateData is ReadyData(inputs, outputs) [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the ReadyState stays in the ReadyState with the additional input when it receives an AddInput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ReadyState receives an AddInput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A procNode in the ReadState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When an AddInput(newInput) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it stays in the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And has the additional input in its data [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the ReadyState stays in the ReadyState with the additional output when it receivs an AddOutput [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ReadyState receives an AddOutput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A procNode in the ReadState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When an AddOutput(newOutput) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it stays in the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And has the additional input in its data [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode with multiple inputs in the ReadyState transitions to the ProcState when it receives a Stimulation from one of its inputs [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ReadyState with multiple inputs receives a Stimulation[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the ReadyState with multiple inputs [0m[0m
+[0m[[0minfo[0m] [0m[32m    When a Stimulation(aValue) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to the ProcState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And its stateData is ProcData(inputs, outputs, inputs - sender, Map(sender -> aValue)) [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode with a single input in the ReadyState sends its processing output to all of its outputs and stays in the ReadyState when it receives a Stimulation [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ReadyState with a single inpup receives a Stimulation[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the ReadyState with a single input [0m[0m
+[0m[[0minfo[0m] [0m[32m    When a Stimulation(aValue) is received [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it stays in the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And all of its outputs receive the output of its activation function on its single input [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the ProcState stays in the ProcState when it receives anything but its final Stimulation [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ProceState receives a Stimulation other than its last[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the ProcState with at least 3 inputs(one already received) [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives Stimulations from just some of its remaining inputs [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it remains in the ProcState [0m[0m
+[0m[[0minfo[0m] [0m[32m    And its stateData is ProcData(inputs, outputs, Set(nonsender), newSenderValues) [0m[0m
+[0m[[0minfo[0m] [0m[32mA ProcNode in the ProcState sends its  processing output to all of its outputs and transitions to the ReadyState when it receives its last Stimulation [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A ProcNode in the ProcState receives its last Stimulation[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A ProcNode in the ProcState with at least 3 inputs(one already received) [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives Stimulations from all of its remaining inputs [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it remains transitions to the ReadyState with ReadyData(inputs, outputs) [0m[0m
+[0m[[0minfo[0m] [0m[32m    And and all of its outputs receive the activationFunction applied to the input values [0m[0m

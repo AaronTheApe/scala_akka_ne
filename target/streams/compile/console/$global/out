@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mStarting sandboxed run...[0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main to exit[0m
+[0m[[0minfo[0m] [0mStarting scala interpreter...[0m
+[0m[[0mdebug[0m] [0m  Boot classpath: /usr/java/jdk1.7.0_21/jre/lib/resources.jar:/usr/java/jdk1.7.0_21/jre/lib/rt.jar:/usr/java/jdk1.7.0_21/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_21/jre/lib/jsse.jar:/usr/java/jdk1.7.0_21/jre/lib/jce.jar:/usr/java/jdk1.7.0_21/jre/lib/charsets.jar:/usr/java/jdk1.7.0_21/jre/lib/jfr.jar:/usr/java/jdk1.7.0_21/jre/classes:/home/aaron/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m  Classpath: /home/aaron/src/scala_talk/target/scala-2.10/classes:/home/aaron/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2-M3.jar:/home/aaron/.ivy2/cache/com.typesafe/config/bundles/config-1.0.0.jar:/home/aaron/.ivy2/cache/com.typesafe.akka/akka-testkit_2.10/bundles/akka-testkit_2.10-2.2-M3.jar:/home/aaron/.sbt/boot/scala-2.10.1/lib/scala-compiler.jar:/home/aaron/.sbt/boot/scala-2.10.1/lib/scala-reflect.jar:/home/aaron/.sbt/boot/scala-2.10.1/lib/jline.jar:/home/aaron/.sbt/boot/scala-2.10.1/lib/jansi.jar[0m
+[0m[[0minfo[0m] [0m[0m

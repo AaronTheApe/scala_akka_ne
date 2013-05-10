@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mRandTttPlayerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA RandTttPlayer begins in the Ready state with ReadyData [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: RandTttPlayer is created[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A TttTask is created [0m[0m
+[0m[[0minfo[0m] [0m[32m    When its state is queried [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then its found to be in the Ready state [0m[0m
+[0m[[0minfo[0m] [0m[32m    And has ReadData [0m[0m
+[0m[[0minfo[0m] [0m[32mWhen a TttPlayer receives a TttTaskEnv it responds by moving in one the unoccupied spaces [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A RandTttPlayer is given a board with at least one empty space[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given a RandTttPlayer and a TttTask [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives a TttTaskEnv with at least one empty space [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then the TttTask receives a valid TttTaskAct [0m[0m
+[0m[[0minfo[0m] [0m[32m    And Magic Happens [0m[0m

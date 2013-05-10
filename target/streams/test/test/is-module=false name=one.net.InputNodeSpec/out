@@ -1,0 +1,44 @@
+[0m[[0minfo[0m] [0m[32mInputNodeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode begins in StartState with StartData [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode is created and has its state queried[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given a freshly created InputNode [0m[0m
+[0m[[0minfo[0m] [0m[32m    When its state is queried [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then its stateName is StartState [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then its stateData is StartData [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode in the StartState transitions to HasOutputs with HasOutputsData(Set(output))after it receives an AddOutput(output) [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode receives an AddOutput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an AddOutput(someActorRef) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to the HasOutputs [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has HasOutputs(Set(someActorRef)) [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode in the StartState transitions to HasInput with HasInputData(input)after it receives a SetInput(input) [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode receives an SetInput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode in the StartState [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an SetInput(someActorRef) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to HasInput [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has HasInput(someActorRef) [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode in the HasInput state transitions to Ready with ReadyData(input, Set(output)) after it receives an AddOutput(output) [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode in the HasInput state receives an AddOutput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode in the HasInput state [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an AddOutput(someActorRef) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to Ready [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has stateData Ready(input, Set(someActorRef)) [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode in the HasOutputs state transitions to Ready with ReadyData(input, outputs) after it receives an AddInput(input) [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode in the HasOutputs state receives an AddInput[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode in the HasOutputs state [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an AddOutput(someActorRef) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it transitions to Ready [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has stateData Ready(input, outputs) [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode stays in ReadyState with ReadyData(input, previousOutputs + newOutput) after it receives an AddOutput(newOutput) [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode in the ReadyState with ReadyData(someOutputs) receives an AddOutput(newOutput)[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode in the ReadyState with ReadyData(input, someOutputs) [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an AddOutput(newOutput) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it remains in the the Ready [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has ReadyData(someOutputs + newOutput) [0m[0m
+[0m[[0minfo[0m] [0m[32mAn InputNode in the Ready state forwards any Stimulation it receives to all of its outputs, and remains in the Ready state with the same ReadyData [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: An InputNode in the ReadyState with ReadyData(input, someOutputs) receives a Stimulation(someValue)[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given an InputNode in the ReadyState with ReadyData(input, someOutputs) [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives a Stimulation(someValue) [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then all outputs receive the same Stimulation(someValue) [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it remains in the the Ready state [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it has the same ReadyData(input, someOutputs) [0m[0m

@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mNeuroConSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA NeuroCon is constructed with a SensorArray, TopTpl, ActuatorArray and begins in the ReadyState with ReadyData [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A NeuroCon is created[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given A NeuroCon is created [0m[0m
+[0m[[0minfo[0m] [0m[32m    When its state is queried [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then its stateName is ReadyStateName [0m[0m
+[0m[[0minfo[0m] [0m[32m    And its stateData is ReadyData [0m[0m
+[0m[[0minfo[0m] [0m[32mA NeuroCon in the ReadyState that receives the TaskEnv forwards the result of its sensorArray to its NeuralNetwork [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A NeuroCon in the ReadyState receives a TaskEnv[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given a NeuroCon in the ReadyState with a given network [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives an TaskEnv [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then its net receives the corresponding input vector [0m[0m
+[0m[[0minfo[0m] [0m[32m    And it transitions to the ProcState with ProcData(net, context.sender) [0m[0m
+[0m[[0minfo[0m] [0m[32mA NeuroCon in the ProcState that receives a RespVec, forwards the result of its actuatorArray to its task, and returns to the ReadyState [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: A NeuroCon in the ProcState receives a RespVec[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given a NeuroCon in the ProcState with a given network [0m[0m
+[0m[[0minfo[0m] [0m[32m    When it receives a RespVec [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then it forwards the result of its actuatorArray to its task [0m[0m
+[0m[[0minfo[0m] [0m[32m    And its state returns to ReadyState with ReadyData(netTestProbe.ref) [0m[0m
