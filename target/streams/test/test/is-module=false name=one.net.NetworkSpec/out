@@ -1,6 +1,0 @@
-[0m[[0minfo[0m] [0m[32mNetworkSpec:[0m[0m
-[0m[[0minfo[0m] [0m[32mA standard two-layer Network can be created and repeatedly used for processing [0m[0m
-[0m[[0minfo[0m] [0m[32m  Scenario: A standard two-layer Network is created and repeatedly used for processing[0m[0m
-[0m[[0minfo[0m] [0m[32m    Given a Network is created with some inputs and some outputs [0m[0m
-[0m[[0minfo[0m] [0m[32m    When it receives some StimulusVectors [0m[0m
-[0m[[0minfo[0m] [0m[32m    Then it responds to the sender of each StimulusVector with a ResponseVector [0m[0m
