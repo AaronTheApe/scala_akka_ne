@@ -12,7 +12,8 @@ Running the demo
 ----------------
 
 1. Install SBT (http://www.scala-sbt.org/)
-2. sbt console
-3. import NEDemo._
-4. runDemo()
-5. Fiddle with the code (NEDemo contains population size, hidden layer size, number of generations, etc)
+2. sbt
+3. console
+4. import NEDemo._
+5. runDemo()
+6. Fiddle with the code (NEDemo contains population size, hidden layer size, number of generations, etc)
